@@ -1,0 +1,54 @@
+body{
+	font-family: verdana;
+	font-size: 12px;
+}
+#modaldialogid{
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	top:0;
+	background-color:rgba(128,128,128,.5);
+}
+#modaldialogcontainerid{
+	position: absolute;
+	left:0;
+	width:500px;
+	height:300px;
+	top:0;
+	background-color:white;
+	border: 1px solid #036;
+}
+
+#modaldialogcontainertitle{
+	position: absolute;
+	left:5px;
+	right:5px;
+	top:5px;
+	background-color:#036;
+	color:white;
+	height: 30px;
+	line-height: 30px;
+	padding:0 20px;
+}
+#modaldialogcontainercontent{
+	position: absolute;
+	left:5px;
+	right:5px;
+	top:40px;
+	bottom:5px;
+	background-color:#fff;
+	color:white;
+	border: 1px solid #036;
+}
+#modaldialogcontainercontent iframe{
+	border:none;
+	height: 100%;
+	width:100%;
+}
+#modaldialogcontainertitle #modaldialogcontainerclose{
+	float:right;
+	line-height: 20px;
+	padding:5px;
+	cursor: pointer;
+}

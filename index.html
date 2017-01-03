@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dialog Box</title>
+<script src="jquery.js"></script>
+<script src="modaldialog.js"></script>
+<link rel="stylesheet" type="text/css" href="modaldialog.css">	
+<script>
+$(function(){
+$("#testbtn").on("click",function(){
+	$.Modaldialog({width:'400px',height:'400px',url:'dialog.html'});
+})	
+})
+
+</script>
+</head>
+<body>
+<input type="button" value="Show Dialog" id="testbtn">
+
+</body>
+
+</html>
